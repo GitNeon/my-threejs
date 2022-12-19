@@ -63,7 +63,12 @@ class Snow {
             let pos_y = position.getY(i)
             let pos_z = position.getZ(i)
 
-            pos_x -= speed
+
+            // let num = Math.random();
+            // let a = Number(num.toFixed(1))
+            //
+            // pos_x =  a > 0.5 ? pos_x + speed : pos_x - speed
+            pos_x -= speed;
             pos_y -= speed
             pos_z -= speed
 
